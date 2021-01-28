@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+      "target": "esnext",
+      "module": "esnext",
+      "strict": true,
+      "jsx": "preserve",
+      "importHelpers": true,
+      "moduleResolution": "node",
+      "experimentalDecorators": true,
+      "esModuleInterop": true /* Enables emit interoperability between CommonJs and ES Modules via creation of namespace objects for all imports */,
+      "allowSyntheticDefaultImports": true /* Allow default imports from modules with no default export. This does not effect code emit, just typechecking. */,
+      "resolveJsonModule": true /* Enable importing JSON files*/,
+      "strictPropertyInitialization": false,
+      "sourceMap": true,
+      "baseUrl": ".",
+      "paths": {
+        "@/*": ["src/*"]
+      },
+      "lib": ["esnext", "dom", "dom.iterable", "scripthost"]
+  },
+  "include": ["src/**/*.ts", "src/**/*.tsx", "src/**/*.vue", "tests/**/*.ts", "tests/**/*.tsx", "src/**/*.json", "src/views/Chart/datachart.js"],
+  "exclude": ["node_modules"]
+}

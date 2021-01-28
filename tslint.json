@@ -1,0 +1,44 @@
+{
+    "defaultSeverity": "warning",
+    "extends": ["tslint:recommended"],
+    "linterOptions": {
+        "exclude": ["node_modules/**", "*.json", "**/*.json"]
+    },
+    "rules": {
+        "quotemark": [true, "single"],
+        "indent": [true, "spaces", 4],
+        "interface-name": false,
+        "ordered-imports": false,
+        "object-literal-sort-keys": false,
+        "no-consecutive-blank-lines": false,
+        "prefer-const": false,
+        "member-access": false,
+        "member-ordering": true,
+        "triple-equals": false,
+        "variable-name": false,
+        "semicolon": false,
+        "no-console": false,
+        "max-classes-per-file": false,
+        "array-type": false,
+        "trailing-comma": [
+            true,
+            {
+                "multiline": {
+                    "objects": "never",
+                    "arrays": "never",
+                    "functions": "never",
+                    "typeLiterals": "ignore"
+                },
+                "esSpecCompliant": true
+            }
+        ],
+        "max-line-length": [
+            false,
+            {
+                "limit": 120,
+                "ignore-pattern": "^import [^,]+ from |^export | implements"
+            }
+        ],
+        "whitespace": [false, "check-branch", "check-decl", "check-operator", "check-separator", "check-type"]
+    }
+}

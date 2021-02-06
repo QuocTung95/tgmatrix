@@ -1,0 +1,185 @@
+.content-page-add-offer .header-step-add-offer .list-step-header{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.content-page-add-offer .header-step-add-offer .list-step-header .item-step{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 55px;
+    position: relative;
+    width: 140px;
+}
+
+.content-page-add-offer .header-step-add-offer .list-step-header .item-step::after{
+    content: "";
+    position: absolute;
+    width: 110%;
+    height: 2px;
+    background: #333;
+    top: 25px;
+    right: -132px;
+}
+
+.content-page-add-offer .header-step-add-offer .list-step-header .item-step:last-child::after{
+    height: 0px;
+}
+
+.content-page-add-offer .header-step-add-offer .list-step-header .item-step .number-step{
+    width: 50px;
+    height: 50px;
+    border: 5px solid #6c7d8e;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: #333;
+}
+
+.content-page-add-offer .header-step-add-offer .list-step-header .item-step.active-custom .number-step{
+    border: 5px solid #3699FF;
+    color: #3699FF;
+}
+
+.content-page-add-offer .header-step-add-offer .list-step-header .item-step .title-step{
+    font-size: 15px;
+    font-weight: 500;
+    color: #333;
+    margin-top: 10px;
+}
+
+.content-page-add-offer .header-step-add-offer .list-step-header .item-step.active-custom .title-step{
+    color: #3699FF;
+}
+
+.content-page-add-offer .list-content-step .item-content-step{
+    display: none;
+}
+
+.content-page-add-offer .list-content-step .item-content-step.active-custom{
+    display: block;
+}
+
+.title-component-step1{
+    margin: 25px 0px;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
+}
+
+.title-component-step1::after{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    background: #EBEDF3;
+    top: -10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.title-component-step1.not-line::after{
+    display: none;
+}
+
+#content-radio-fixed-price{
+    display: none;
+}
+#content-radio-fixed-price.active-custom{
+    display: flex;
+}
+
+#content-radio-custom-price{
+    display: none;
+}
+#content-radio-custom-price.active-custom{
+    display: flex;
+}
+
+#location-to-coordinates-step3{
+    display: none;
+}
+#location-to-coordinates-step3.active-custom{
+    display: flex;
+}
+#location-to-address-step3{
+    display: none;
+}
+#location-to-address-step3.active-custom{
+    display: flex;
+}
+
+#location-from-coordinates-step3{
+    display: none;
+}
+#location-from-coordinates-step3.active-custom{
+    display: flex;
+}
+#location-from-address-step3{
+    display: none;
+}
+#location-from-address-step3.active-custom{
+    display: flex;
+}
+
+#date-time-pick-up-availability-step4{
+    display: none;
+}
+#date-time-pick-up-availability-step4.active-custom{
+    display: flex;
+}
+#distance-pick-up-availability-step4{
+    display: none;
+}
+#distance-pick-up-availability-step4.active-custom{
+    display: flex;
+}
+#duration-pick-up-availability-step4{
+    display: none;
+}
+#duration-pick-up-availability-step4.active-custom{
+    display: flex;
+}
+
+#date-time-delivery-step4{
+    display: none;
+}
+#date-time-delivery-step4.active-custom{
+    display: flex;
+}
+#distance-delivery-step4{
+    display: none;
+}
+#distance-delivery-step4.active-custom{
+    display: flex;
+}
+#duration-delivery-step4{
+    display: none;
+}
+#duration-delivery-step4.active-custom{
+    display: flex;
+}
+
+.list-actions-add-off .item-action{
+    display: none;
+}
+
+.list-actions-add-off .item-action.active-custom{
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content-page-add-offer .header-step-add-offer .list-step-header .item-step{
+        margin: 0;
+        width: 195px;
+    }
+    .content-page-add-offer .header-step-add-offer .list-step-header .item-step::after{
+        width: 40%;
+        right: -30px;
+    }
+}

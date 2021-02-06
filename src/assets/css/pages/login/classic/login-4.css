@@ -1,0 +1,170 @@
+.login.login-4 .login-signin,
+.login.login-4 .login-signup,
+.login.login-4 .login-forgot {
+    display: none;
+}
+
+.login.login-4.login-signin-on .login-signup {
+    display: none;
+}
+
+.login.login-4.login-signin-on .login-signin {
+    display: block;
+}
+
+.login.login-4.login-signin-on .login-forgot {
+    display: none;
+}
+
+.login.login-4.login-signin-on .login-check-code {
+    display: none;
+}
+
+.login.login-4.login-signin-on .login-change_pass {
+    display: none;
+}
+
+.login.login-4.login-signin-on .login-thanks-home {
+    display: none;
+}
+
+.login.login-4.login-signup-on .login-signup {
+    display: block;
+}
+
+.login.login-4.login-signup-on .login-signin {
+    display: none;
+}
+
+.login.login-4.login-signup-on .login-forgot {
+    display: none;
+}
+
+.login.login-4.login-signup-on .login-thanks-home {
+    display: none;
+}
+.login.login-4.login-signup-on .login-forgot {
+    display: none;
+}
+.login.login-4.login-signup-on .login-check-code {
+    display: none;
+}
+.login.login-4.login-signup-on .login-change_pass {
+    display: none;
+}
+
+.login.login-4.login-forgot-on .login-signup {
+    display: none;
+}
+.login.login-4.login-forgot-on .login-thanks-home {
+    display: none;
+}
+.login.login-4.login-forgot-on .login-signin {
+    display: none;
+}
+
+.login.login-4.login-forgot-on .login-check-code {
+    display: none;
+}
+
+.login.login-4.login-forgot-on .login-change_pass {
+    display: none;
+}
+
+.login.login-4.login-forgot-on .login-forgot {
+    display: block;
+}
+
+.login.login-4.login-check_code-on .login-signin {
+    display: none;
+}
+
+.login.login-4.login-check_code-on .login-thanks-home {
+    display: none;
+}
+
+.login.login-4.login-check_code-on .login-forgot {
+    display: none;
+}
+.login.login-4.login-check_code-on .login-change_pass {
+    display: none;
+}
+
+.login.login-4.login-check_code-on .login-check-code {
+    display: block;
+}
+
+.login.login-4.login-change_pass-on .login-signin {
+    display: none;
+}
+
+.login.login-4.login-change_pass-on .login-thanks-home {
+    display: none;
+}
+.login.login-4.login-change_pass-on .login-forgot {
+    display: none;
+}
+.login.login-4.login-change_pass-on .login-check-code {
+    display: none;
+}
+.login.login-4.login-change_pass-on .login-change_pass {
+    display: block;
+}
+
+.login.login-4.login-thanks-home-on .login-check-code {
+    display: none;
+}
+
+.login.login-4.login-thanks-home-on .login-change_pass {
+    display: none;
+}
+
+.login.login-4.login-thanks-home-on .login-forgot {
+    display: none;
+}
+
+.login.login-4.login-thanks-home-on .login-signin {
+    display: none;
+}
+
+.login.login-4.login-thanks-home-on .login-thanks-home {
+    display: block;
+}
+
+
+#kt_login_check_code_form input[type=number]::-webkit-inner-spin-button,
+#kt_login_check_code_form input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#kt_login_check_code_form .list-code-6 {
+    display: flex;
+    justify-content: space-between;
+}
+
+#kt_login_check_code_form .list-code-6 .item-custom-input {
+    padding: 0 !important;
+    height: 47px !important;
+    background-color: #F3F6F9;
+    border-color: #F3F6F9;
+    color: #3F4254;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+}
+
+.login.login-4 .login-form {
+    width: 100%;
+    max-width: 450px;
+}
+
+@media (max-width: 575.98px) {
+    .login.login-4 .login-form {
+        width: 100%;
+        max-width: 100%;
+    }
+}

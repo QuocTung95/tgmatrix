@@ -5,7 +5,6 @@ import Companies from '@/views/Companies/index.vue';
 import Users from '@/views/Users/index.vue';
 import Login from '@/views/Login/index.vue';
 import SignUp from '@/views/SignUp/index.vue';
-import CarrierOffers from '@/views/CarrierOffers/index.vue';
 
 Vue.use(VueRouter)
 
@@ -24,11 +23,6 @@ const routes: Array<RouteConfig> = [
         path: '/users',
         name: 'Users',
         component: Users
-    },
-    {
-        path: '/carrier-offers',
-        name: 'CarrierOffers',
-        component: CarrierOffers
     },
     {
         path: '/login',
